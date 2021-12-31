@@ -1,0 +1,436 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.EFCore\\DH.AuthCenter.EFCore.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\Abp.EntityFramework.Common.csproj": {
+      "version": "6.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\Abp.EntityFramework.Common.csproj",
+        "projectName": "Abp.EntityFramework.Common",
+        "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\Abp.EntityFramework.Common.csproj",
+        "packagesPath": "C:\\Users\\03010673\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\03010673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj": {
+                "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta-20204-02, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\Abp.EntityFrameworkCore.csproj": {
+      "version": "6.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\Abp.EntityFrameworkCore.csproj",
+        "projectName": "Abp.EntityFrameworkCore",
+        "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\Abp.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\03010673\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\03010673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\Abp.EntityFramework.Common.csproj": {
+                "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFramework.Common\\Abp.EntityFramework.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta-20204-02, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj": {
+      "version": "6.5.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj",
+        "projectName": "Abp",
+        "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj",
+        "packagesPath": "C:\\Users\\03010673\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\03010673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Castle.Core.AsyncInterceptor": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Castle.LoggingFacility": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "ConfigureAwait.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.5.3, )"
+            },
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2021.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta-20204-02, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Nito.AsyncEx.Context": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Nito.AsyncEx.Coordination": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.12, )"
+            },
+            "System.Linq.Queryable": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.Serialization.Formatters": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Xml.XPath.XmlDocument": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\DH.AuthCenter.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\DH.AuthCenter.Core.csproj",
+        "projectName": "DH.AuthCenter.Core",
+        "projectPath": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\DH.AuthCenter.Core.csproj",
+        "packagesPath": "C:\\Users\\03010673\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\03010673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj": {
+                "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp\\Abp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.EFCore\\DH.AuthCenter.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.EFCore\\DH.AuthCenter.EFCore.csproj",
+        "projectName": "DH.AuthCenter.EFCore",
+        "projectPath": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.EFCore\\DH.AuthCenter.EFCore.csproj",
+        "packagesPath": "C:\\Users\\03010673\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\03010673\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\Abp.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\projects\\aspnetboilerplate-6.5.0\\src\\Abp.EntityFrameworkCore\\Abp.EntityFrameworkCore.csproj"
+              },
+              "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\DH.AuthCenter.Core.csproj": {
+                "projectPath": "C:\\projects\\DH\\DHAuthCenter\\DH.AuthCenter.Core\\DH.AuthCenter.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

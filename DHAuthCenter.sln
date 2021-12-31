@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "abp", "abp", "{5C6BF624-FE59-41FF-86F6-85CA5F04B424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp", "..\..\aspnetboilerplate-6.5.0\src\Abp\Abp.csproj", "{95A6F266-9D7D-43E9-AF14-B09581E87087}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DH.AuthCenter.Core", "DH.AuthCenter.Core\DH.AuthCenter.Core.csproj", "{8810F771-51CA-4775-9C5C-D3AF0F3C4182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DH.AuthCenter.EFCore", "DH.AuthCenter.EFCore\DH.AuthCenter.EFCore.csproj", "{9F90DCCD-F76B-41F9-95F9-119E4A711A4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.EntityFrameworkCore", "..\..\aspnetboilerplate-6.5.0\src\Abp.EntityFrameworkCore\Abp.EntityFrameworkCore.csproj", "{EE620C1E-A76B-4D0F-A38E-46182EF7C84F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.EntityFramework.Common", "..\..\aspnetboilerplate-6.5.0\src\Abp.EntityFramework.Common\Abp.EntityFramework.Common.csproj", "{1295804A-B418-4592-9678-8D4A677B7C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95A6F266-9D7D-43E9-AF14-B09581E87087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A6F266-9D7D-43E9-AF14-B09581E87087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A6F266-9D7D-43E9-AF14-B09581E87087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A6F266-9D7D-43E9-AF14-B09581E87087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8810F771-51CA-4775-9C5C-D3AF0F3C4182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8810F771-51CA-4775-9C5C-D3AF0F3C4182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8810F771-51CA-4775-9C5C-D3AF0F3C4182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8810F771-51CA-4775-9C5C-D3AF0F3C4182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F90DCCD-F76B-41F9-95F9-119E4A711A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F90DCCD-F76B-41F9-95F9-119E4A711A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F90DCCD-F76B-41F9-95F9-119E4A711A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F90DCCD-F76B-41F9-95F9-119E4A711A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE620C1E-A76B-4D0F-A38E-46182EF7C84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE620C1E-A76B-4D0F-A38E-46182EF7C84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE620C1E-A76B-4D0F-A38E-46182EF7C84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE620C1E-A76B-4D0F-A38E-46182EF7C84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1295804A-B418-4592-9678-8D4A677B7C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1295804A-B418-4592-9678-8D4A677B7C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1295804A-B418-4592-9678-8D4A677B7C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1295804A-B418-4592-9678-8D4A677B7C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95A6F266-9D7D-43E9-AF14-B09581E87087} = {5C6BF624-FE59-41FF-86F6-85CA5F04B424}
+		{EE620C1E-A76B-4D0F-A38E-46182EF7C84F} = {5C6BF624-FE59-41FF-86F6-85CA5F04B424}
+		{1295804A-B418-4592-9678-8D4A677B7C8F} = {5C6BF624-FE59-41FF-86F6-85CA5F04B424}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A3A8323-CD4F-4F52-B139-A29D033F49B1}
+	EndGlobalSection
+EndGlobal
